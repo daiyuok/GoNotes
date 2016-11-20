@@ -8,8 +8,6 @@ import "fmt"
  * Time: 22:25
  */
 
-
-
 type user struct {
 	id   int
 	name string
@@ -26,9 +24,9 @@ func (u user) call() string {
 	return fmt.Sprintf("%+v", u)
 }
 
-func (u *user)area()int  {
-	u.id=2
-	return u.id*u.age
+func (u *user) area() int {
+	u.id = 2
+	return u.id * u.age
 }
 
 func main() {
