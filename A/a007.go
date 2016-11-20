@@ -7,10 +7,3 @@ package main
  
  */
 
-import a "GoNotes/lib"
-
-func main() {
-	a.add(1, 2)
-}
-
-
