@@ -7,11 +7,11 @@ package main
  
  */
 import (
-	"github.com/daiyuok/GoNotes"
+	"GoNotes"
 	"fmt"
 )
 
 func main() {
-	a := gnotes.add(1, 2)
+	a := gnotes.Add(1, 2)
 	fmt.Print(a)
 }
